@@ -46,6 +46,16 @@ body{
     animation-delay: .4s;
 }
 
+/* .navbar{
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    padding: 1rem 4%;
+    background:#081b29;
+    box-shadow: ;
+} */
+
 .navbar a{
     font-size:18px;
     color: #ededed;
@@ -342,68 +352,11 @@ body{
     opacity: .8;
 }
 
-/*KEYFRAMES ANIMATION*/
-
-@keyframes showRight {
-    100%{
-        width: 0;
-    }
-}
-
-
-
-@media (max-width: 700px) {
-    .navbar a{
-        font-size: 7=10px;
-        display: inline-flex;
-        justify-content:space-between;
-    }
-
-
-    .logo{
-      image-rendering: optimizeQuality;
-    }
-
-    .home{
-        background: url();
-        background-color: #081b29;
-    }
-
-    .home-content .btn-box{
-        position: relative;
-        justify-content: space-evenly;
-        right: 17px;
-    }
-
-    .home-imgHover:hover{
-        background: transparent;
-    }
-
-    .home-sci{
-        justify-content: space-evenly;
-    }
-
-    .home-content h3{
-        font-size: 17px;
-    }
-
-    .home-content p{
-        font-size: 10px;
-        position: relative;
-        right: 10px;
-
-    }
-
-    .home-content h1{
-        font-size: 40px;
-    }
-
-    .beta-tag h4{
-        font-size: 10px;
-
-    }
-
-
+#menu-icon{
+    font-size: 3.6rem;
+    color: #ededed;
+    cursor: pointer;
+    display: none;
 }
 
 .beta-tag{
@@ -416,10 +369,130 @@ body{
     z-index: 1;
 }
 
+.beta-tag a{
+    color: #ededed;
+    text-decoration: none;
+    transition: .6s ease-in;
+}
+
+.beta-tag a:hover{
+    color: #007cad;
+    transition: .6s ease-out;
+}
+
 .beta-tag h4{
     display: flex;
     justify-content: center;
     text-shadow: 2px 2px black;
 }
+
+
+/*KEYFRAMES ANIMATION*/
+
+@keyframes showRight {
+    100%{
+        width: 0;
+    }
+}
+
+/* RESPONSIVENESS */
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px){
+    .header{
+        padding:2rem 4%;
+    }
+
+    section{
+        padding: 10rem 4% 2rem;
+    }
+
+    .home{
+        padding: 0 4%;
+    }
+}
+
+@media(max-width:768px){
+    .header{
+        background-color: #081b29;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left:-100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: #081b29;
+        box-shadow: 0  .5rem 1rem rgba(0,0,0,.2); 
+        transition: .25s ease;
+        transition-delay: .25s;
+    }
+
+    .navbar.active{
+        transition-delay: 0s;
+        left: 0;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home-imgHover{
+        pointer-events: none;
+    }
+}
+
+#menu-not-icon{
+    display: none;
+}
+
+@media(max-width:520px){
+    html{
+        font-size: 50%;
+    }
+
+    .home-content h1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-sci{
+        width: 160px;
+    }
+
+    .home-sci a{
+        width: 38px;
+        height: 38px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END RESPONSIVENESS */
+
 
 

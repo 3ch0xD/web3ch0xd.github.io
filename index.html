@@ -13,7 +13,9 @@
 
     <body>
         <header class="header">
-            <a href="#" class="logo"><img src="img/umer-logo.png"></a>
+            <a href="#" class="logo"><p3>3ch0xD.</p3></a>
+                 <div class="bx bx-menu" id="menu-icon"></div>
+                 <div class="bx bx-x" id="menu-not-icon"></div>
 
             <nav class="navbar">
                 <a href="#" class="active">Home</a>
@@ -21,6 +23,18 @@
                 <a href="Contact.html">Contact</a>
                 <a href="Grid.html">Websites</a>
             </nav>
+
+            <script>
+                // toggle icon navbar
+   
+   let menuIcon = document.querySelector('#menu-icon');
+   let navbar = document.querySelector('.navbar');
+   
+   menuIcon.onclick = () => {
+       menuIcon.classList.toggle('bx-x');
+       navbar.classList.toggle('active'); 
+   }
+               </script>
         </header>
 
         <section class="home">
@@ -44,7 +58,7 @@
 
             <span class="home-imgHover"></span>
             <div class="beta-tag">
-                <h4>This Website Is Still Under Development</h4>
+                <h4>All Rights Reserved By <a href="index.html">@3ch0xD</a></h4>
             </div>
         </section>
     </body>
