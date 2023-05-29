@@ -143,3 +143,9 @@ span{
   text-shadow: 10px 10px rgb(000, 000, 000, 0.9);
 }
 
+@media (max-width: 700px){
+
+  .smal-notes a{
+    align-items: center;
+  }
+}
