@@ -148,4 +148,10 @@ span{
   .smal-notes a{
     align-items: center;
   }
+
+  .small-notes a{
+    font-size: 50px;
+  }
+
+
 }
