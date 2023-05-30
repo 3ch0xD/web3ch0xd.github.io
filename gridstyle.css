@@ -135,12 +135,13 @@ span{
   transition: .6s;
   font-size: 1.5rem;
   font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .small-notes a:hover{
   color: #00abf0;
   transition: .6s;
-  text-shadow: 10px 10px rgb(000, 000, 000, 0.9);
+  text-shadow: 10px 0px 25px #00abf0;
 }
 
 @media (max-width: 700px){

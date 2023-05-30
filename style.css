@@ -364,7 +364,7 @@ body{
     bottom: 0px;
     left: 0px;
     width: 100%;
-    background-color: #00abf0;
+    background-color: firebrick;
     color: #ededed;
     z-index: 1;
 }
@@ -383,7 +383,7 @@ body{
 .beta-tag h4{
     display: flex;
     justify-content: center;
-    text-shadow: 2px 2px black;
+    font-weight: 400;
 }
 
 
