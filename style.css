@@ -359,32 +359,7 @@ body{
     display: none;
 }
 
-.beta-tag{
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: firebrick;
-    color: #ededed;
-    z-index: 1;
-}
 
-.beta-tag a{
-    color: #ededed;
-    text-decoration: none;
-    transition: .6s ease-in;
-}
-
-.beta-tag a:hover{
-    color: #007cad;
-    transition: .6s ease-out;
-}
-
-.beta-tag h4{
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-}
 
 
 /*KEYFRAMES ANIMATION*/
