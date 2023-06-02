@@ -7,6 +7,7 @@
     height: 100vh;
     background: #081b29;
     font-family: 'Balsamiq Sans', sans-serif;
+    overflow: hidden;
   }
   
   body {
@@ -68,6 +69,10 @@
     color: #ffffff;
     border-radius: 50px;
     transition: .6s ease-in;
+  }
+
+  .card .row .form-group textarea{
+    height: 500%;
   }
   
   .card .row .form-group label {
@@ -188,4 +193,21 @@
     color: #00abf0;
     border-radius: 50px;
     transition: .6s ease-in;
+  }
+
+  .hehe::file-selector-button{
+    background-color: #00abf0;
+    color: #ededed;
+    font-family: poppins,sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .email-bold{
+    font-weight: 900;
+  }
+  
+  h3{
+    color: #ededed;
   }
