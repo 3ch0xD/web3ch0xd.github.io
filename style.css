@@ -489,6 +489,10 @@ body{
         width: 38px;
         height: 38px;
     }
+
+    .home-content p{
+        font-size: 13px;
+    }
 }
 
 
