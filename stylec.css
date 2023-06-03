@@ -70,10 +70,6 @@
     border-radius: 50px;
     transition: .6s ease-in;
   }
-
-  .card .row .form-group textarea{
-    height: 500%;
-  }
   
   .card .row .form-group label {
     line-height: 40px;
