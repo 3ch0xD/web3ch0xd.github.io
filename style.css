@@ -74,7 +74,6 @@ body{
 
 .home{
     height: 100vh;
-    background: url('img/website\ element.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -337,26 +336,20 @@ body{
     width: 100%;
 }
 
-.home-imgHover{
-    position: absolute;
-    top: 0;
-    right: 30px;
-    width: 500px;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-}
-
-.home-imgHover:hover{
-    background: #081b29;
-    opacity: .8;
-}
 
 #menu-icon{
     font-size: 3.6rem;
     color: #ededed;
     cursor: pointer;
     display: none;
+}
+
+.home-imgHover img{
+    position: absolute;
+    top: 210px;
+    right: 100px;
+    border: 5px solid #00abf0;
+    border-radius: 50%;
 }
 
 
@@ -382,6 +375,10 @@ body{
     body{
         height: -webkit-fill-available;
         width:-webkit-fill-available;
+    }
+
+    .home-imgHover{
+        visibility: hidden;
     }
 }
 
